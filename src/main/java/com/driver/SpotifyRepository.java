@@ -218,7 +218,7 @@ public class SpotifyRepository {
         Song song=null;
         for(Song sng:songs){
             if(sng.getTitle().equals(songTitle)){
-                sng=song;
+                song=sng;
                 break;
             }
         }
