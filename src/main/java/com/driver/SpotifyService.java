@@ -13,6 +13,7 @@ public class SpotifyService {
 
     public User createUser(String name, String mobile){
         return spotifyRepository.createUser(name,mobile);
+
     }
 
     public Artist createArtist(String name) {
